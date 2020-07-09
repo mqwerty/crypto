@@ -15,5 +15,8 @@ jobs:
         with:
           php-version: '7.4'
           extensions: openssl
-          coverage: xdebug
-          tools: php-cs-fixer, phpunit
+          coverage: pcov
+      - name: Run tests
+        run: |
+          composer install --no-interaction --no-progress
+          composer check
