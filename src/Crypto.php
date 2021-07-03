@@ -14,7 +14,7 @@ class Crypto
     }
 
     /**
-     * @param $data
+     * @param string $data
      * @return string
      * @throws \Exception
      */
@@ -29,7 +29,7 @@ class Crypto
     }
 
     /**
-     * @param $encrypted
+     * @param string $encrypted
      * @return string
      */
     public function decrypt(string $encrypted): string

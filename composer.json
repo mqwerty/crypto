@@ -19,11 +19,11 @@
     }
   },
   "require": {
-    "php": "^7.4",
+    "php": ">=7.4",
     "ext-openssl": "*"
   },
   "require-dev": {
-    "phan/phan": "^3.0",
+    "phan/phan": "^4.0",
     "phpmd/phpmd": "^2.8",
     "phpunit/phpunit": "^9.2",
     "roave/security-advisories": "dev-master",
